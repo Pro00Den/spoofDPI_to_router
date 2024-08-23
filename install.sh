@@ -10,8 +10,8 @@ case `uname -m`  in
     mipsel)
         arch="linux-mipsle"
     ;;
-    arm)
-        arch="linux-arm7"
+    armv7l)
+        arch="linux-arm"
     ;;
     *)
         echo $(uname -m)" not suppoted"
